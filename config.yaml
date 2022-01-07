@@ -1,0 +1,24 @@
+languageCode: "en-us"
+baseUrl: "https://yuriizinets.github.io"
+title: "Yurii Zinets"
+theme: "anubis"
+paginate: 10
+enableRobotsTXT: true
+
+params:
+  author: "Yurii Zinets"
+  email: yurii.zinets@icloud.com
+  description: "Software Engineer"
+  dateFormat: "2006-01-02"
+  paginationSinglePost: true
+  style: auto
+  readMore: true
+  disableSummary: false
+  social:
+  - id: github
+    name: yuriizinets
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # enable raw HTML in Markdown
